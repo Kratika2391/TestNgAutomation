@@ -16,7 +16,7 @@ public class base {
 	FileInputStream fs = new FileInputStream("C:\\Users\\kratika.malik\\eclipse-workspace\\automationPrac1\\src\\main\\java\\Data\\data.properties");
 	Prop.load(fs);
 	String browserName = Prop.getProperty("browser");
-	
+	//-- Kratika\\Malik\\eclipse\\Chrome
 	if(browserName.equals("chrome")) {
 		System.setProperty("webdriver.chrome.driver", "C:\\Kratika\\Malik\\eclipse\\Chrome Driver\\CD\\chromedriver.exe");
 
